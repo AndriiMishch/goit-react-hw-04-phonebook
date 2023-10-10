@@ -33,7 +33,6 @@ export default function UserForm({ onSubmit }) {
         <Input
           type="tel"
           name="number"
-          pattern="[0-9]{10}"
           title="Enter telephone number (e.g., 1234567890)"
           required
           value={number}
